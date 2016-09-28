@@ -1,0 +1,3 @@
+rootProject.name = 'BahaiDateBookApp'
+
+include ':app'
