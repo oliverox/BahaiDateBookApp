@@ -2,7 +2,7 @@ import moment from 'moment-timezone';
 import localBadiDate from '../../lib/badi/localBadiDate';
 
 const today = moment();
-const todayBadi = new localBadiDate(today, 37.4719020, -122.1317400);
+const todayBadi = new localBadiDate(moment(), 37.468827, -122.141075);
 
 const DATES = [
   [today.format('dddd D MMMM'), todayBadi.badiDate.format('d MM'), ''],

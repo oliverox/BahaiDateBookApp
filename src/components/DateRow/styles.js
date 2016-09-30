@@ -23,6 +23,10 @@ const styles = StyleSheet.create({
   },
   badiDate: {
     fontSize: 14,
+    color: '#FF3366',
+  },
+  badiDateUnderline: {
+    textDecorationLine: 'underline',
   }
 });
 
